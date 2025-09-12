@@ -1633,7 +1633,9 @@ class Outputs:
 
     def __init__(self, input_simulator_class):
 
-        self.loss_coefficient = input_simulator_class.loss_coefficient
+        
+        if input_simulator_class.consider_losses:
+            self.loss_coefficient = input_simulator_class.loss_coefficient
         
         self.consider_PDC = input_simulator_class.consider_PDC
         self.consider_losses = input_simulator_class.consider_losses
@@ -1712,8 +1714,8 @@ class Outputs:
         (see eq. 6 and A11 in Weiss et al)
         """
         phase_sensitive_moment_M = self.propagator_ss @ np.transpose(self.propagator_is)
-        phase_insensitive_moment_N_s = np.conjugate(self.propagator_si) @ np.transpose(self.propagator_si)
-        phase_insensitive_moment_N_i = np.conjugate(self.propagator_is) @ np.transpose(self.propagator_is)
+        phase_insensitive_moment_N_s = np.conjugate(self.propagator_is) @ np.transpose(self.propagator_is)
+        phase_insensitive_moment_N_i = np.conjugate(self.propagator_si) @ np.transpose(self.propagator_si)
         if self.consider_losses:
             phase_sensitive_moment_M = (self.loss_coefficient(np.sum(self.Length_step[1:len(self.Length)-1]))**2) * phase_sensitive_moment_M
             phase_insensitive_moment_N_s = (self.loss_coefficient(np.sum(self.Length_step[1:len(self.Length)-1]))**2) * phase_insensitive_moment_N_s
