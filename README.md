@@ -1,6 +1,6 @@
 # Quantum Nonlinear Parametric Interaction in Realistic Waveguides
 
-The `QNPI_InRealisticWaveguides` is a module for modelling quantum nonlinear interaction in waveguides affected by imperfections and deviations-from-design typically associated with realistic fabrication processes. The modelling framework assumes an undepleted pump field, leading to an effectively Gaussian evolution.
+`QNPI_InRealisticWaveguides` is a module for modelling quantum nonlinear interaction in waveguides affected by imperfections and deviations-from-design typically associated with realistic fabrication processes. The modelling framework assumes an undepleted pump field, leading to an effectively Gaussian evolution.
 
 This module contains a consolidated and streamlined version of the scripts that were used to generate the results in the paper
 
