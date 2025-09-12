@@ -1,0 +1,8 @@
+Step 1:		Enter waveguide data under 'Global Definitions > Parameters'
+
+Step 2: 	Run the mode solver by pressing 'Compute' under 'DoCalculations'
+
+Step 3: 	Extract dispersion data by pressing 'Evaluate' under 'Results > Derived Values > Dispersion Data' and copy-pasting the table into an appropriate text file
+
+Step 4.1:	Select the appropriate pump/signal/idler wavelengths and modes from the list under 'Results > WG Field Data'
+Step 4.2: 	Extract waveguide modal data for the different components via right-click > 'add plot data to export' and pressing 'Export' on the corresponding export file for each

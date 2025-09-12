@@ -1,0 +1,7 @@
+numpy>=1.26.4
+scipy>=1.13.1
+matplotlib>=3.9.2
+tqdm>=4.66.5
+
+# from 'https://github.com/abranczyk/custom-poling/tree/main'
+custom_poling
