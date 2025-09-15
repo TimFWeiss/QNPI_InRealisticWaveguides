@@ -25,7 +25,7 @@ pip install matplotlib>=3.6.3
 
 ## Examples and related material
 
-A jupyter notebook introducing the capabilities and the workflow of the module can be found in the `example` directory.
+For an introduction to the capabilities and the workflow of the module please see the jupyter notebook in the `example` directory.
 
 A detailed description of the theory behind the modelling framework can be found in 
 
