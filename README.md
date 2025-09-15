@@ -6,6 +6,7 @@ This module contains a consolidated and streamlined version of the scripts that 
 
 > Weiss, T. F., Youssry, A., & Peruzzo, A. (2025). Quantum nonlinear parametric interaction in realistic waveguides: a comprehensive study. [arXiv:2506.20184](https://doi.org/10.48550/arXiv.2506.20184)
 
+If you found this module useful for your research, please cite this paper and link to this repository.
 
 
 ## Installation
