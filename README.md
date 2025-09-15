@@ -15,7 +15,7 @@ Install via pip:
 ```bash
 pip install QNPI-InRealisticWaveguides
 ```
-For using tailored poling structures install `custom-poling` separately (there is a matplotlib restriction): 
+For using tailored poling structures install [custom-poling](https://github.com/abranczyk/custom-poling) separately (there is a matplotlib restriction): 
 ```bash
 pip install custom-poling --no-deps
 pip install matplotlib>=3.6.3
