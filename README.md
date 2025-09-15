@@ -37,6 +37,6 @@ A detailed description of the theory behind the modelling framework can be found
 ## Features & Comments
 
 Quantitatively connecting the modelling framework with an explicit waveguide requires calculation of the respective dispersion and modal-field data. Sample data is provided in the files under `ModeSolverData` together with a COMSOL file capable of generating them for arbitrary waveguides. 
-While the module can be used without the files containing the waveguide modes by directly supplying the nonlinear interaction coefficients calculated from them, a file containing dispersion data is strictly required.
+While the module can be used without the files containing the waveguide modes (by directly supplying the nonlinear interaction coefficients calculated from them), a file containing dispersion data is strictly required.
 
 In its current state, the module is (in all likelihood) far from computationally optimized, and requires implementation alongside significant parallelization when treating complex cases. 
